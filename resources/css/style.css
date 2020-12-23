@@ -171,11 +171,23 @@ h4 {
     transform: scale(1.08);
 }
 
-.ml{
+.app {
     background-color: #F9F9F9;
 }
 
-.project{
+/* .tool{
+    background-color: #F9F9F9;
+} */
+
+.intern {
+    background-color: #F9F9F9;
+}
+
+/* .project{
+    background-color: #F9F9F9;
+} */
+
+.monitor {
     background-color: #F9F9F9;
 }
 
