@@ -5,21 +5,7 @@
 /* --------------------- */
 
 @media only screen and (max-width: 1023px) and (orientation: portrait) {
-    /* Footer */
-    .exeter {
-        float: left;
-        width: 30%;
-        margin-bottom: 3%;
-        margin-top: 3%;
-        margin-left: 5%;
-    }
-    .liverpool {
-        float: right;
-        width: 35%;
-        margin-top: 3%;
-        margin-bottom: 3%;
-        margin-right: 5%;
-    }
+
 }
 
 @media (max-width: 1200px) {
@@ -36,6 +22,7 @@
 
 @media (max-width: 576px) {
     body{font-size: 18px;}
+
     .title {
         margin-bottom: 5%;
     }
@@ -46,20 +33,36 @@
 	    margin-left:35%;
     }
 
-    /* Footer */
-    .exeter {
-        float: left;
-        width: 30%;
-        margin-bottom: 3%;
-        margin-top: 3%;
-        margin-left: 5%;
+    .hust {
+        /* float: left; */
+        margin-bottom:1%;
+        margin-top:5%;
+        margin-left: 28%;
+        width: 50%;
     }
-    .liverpool {
-        float: right;
-        width: 35%;
-        margin-top: 3%;
-        margin-bottom: 3%;
-        margin-right: 5%;
+    
+    .tpl {
+        /* float: right; */
+        margin-top:1%;
+        margin-bottom:1%;
+        margin-left: 30%;
+        width: 40%;
+    }
+    
+    .trustai {
+        /* float: left; */
+        margin-bottom:1%;
+        margin-top:2%;
+        margin-left: 32%;
+        width:36%;
+    }
+    
+    .exeter {
+        /* float: right; */
+        margin-top:2%;
+        margin-bottom:1%;
+        margin-left: 37%;
+        width: 26%;
     }
 }
 
