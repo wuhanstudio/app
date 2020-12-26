@@ -175,21 +175,25 @@ h4 {
     background-color: #F9F9F9;
 }
 
-/* .tool{
+/* .file{
     background-color: #F9F9F9;
 } */
 
-.intern {
+.tool{
     background-color: #F9F9F9;
 }
 
-/* .project{
+/* .intern {
     background-color: #F9F9F9;
 } */
 
-.monitor {
+.project{
     background-color: #F9F9F9;
 }
+
+/* .monitor {
+    background-color: #F9F9F9;
+} */
 
 /* ------------------------- */
 
