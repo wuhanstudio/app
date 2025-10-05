@@ -16,53 +16,47 @@
     body{font-size: 16px;}
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     body{font-size: 14px;}
-}
 
-@media (max-width: 576px) {
-    body{font-size: 18px;}
-
-    .title {
-        margin-bottom: 5%;
+    body::after {
+        height: 120px;
+        /* Set same as footer's height */
     }
-    
-    .item img {
-        width: 30%;
-	    height: 30%;
-	    margin-left:35%;
+
+    .footer {
+        height: 120px;
     }
 
     .hust {
-        /* float: left; */
-        margin-bottom:1%;
-        margin-top:5%;
-        margin-left: 28%;
+        margin-top: 5%;
+        margin-left: 5%;
+        width: 90%;
+    }
+
+    .tpl {
+        margin-top: 5%;
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .newcastle {
+        margin-top: 7%;
+        margin-left: 15%;
+        width: 60%;
+    }
+
+    .trustai {
+        margin-top: 5%;
+        margin-left: 15%;
+        width: 70%;
+    }
+
+    .exeter {
+        margin-top: 7%;
+        margin-left: 25%;
         width: 50%;
     }
-    
-    .tpl {
-        /* float: right; */
-        margin-top:1%;
-        margin-bottom:1%;
-        margin-left: 30%;
-        width: 40%;
-    }
-    
-    .trustai {
-        /* float: left; */
-        margin-bottom:1%;
-        margin-top:2%;
-        margin-left: 32%;
-        width:36%;
-    }
-    
-    .exeter {
-        /* float: right; */
-        margin-top:2%;
-        margin-bottom:1%;
-        margin-left: 37%;
-        width: 26%;
-    }
+
 }
 

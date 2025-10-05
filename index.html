@@ -11,9 +11,6 @@
     <link rel="stylesheet" type="text/css" href="resources/css/fontawesome.css">
     <link rel="stylesheet" href="resources/css/simpleSnackbar.min.css">
 
-    <!-- Grid -->
-    <link rel="stylesheet" type="text/css" href="resources/css/grid.css">
-
     <!-- My Style -->
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/queries.css">
@@ -26,265 +23,283 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="theme-color" content="#ffffff">
 
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    
     <title>WuhanStudio</title>
 
 </head>
 
 <body>
-    <div id="fullpage">
-        <!-- Hust & TPL -->
-        <div class="section" id="section4">
-
-            <div class="app">
-            <div class="row avatar">
-                <div class="col span-1-of-2">
-                    <p class="type">应用列表</p>
-                </div>
-                <div class="col span-1-of-2">
-                    <p class="type">Applications</p>
+    <section id="app-section">
+        <div class="app">
+            <div class="container-fluid" style="width: 90%;">
+                <div class="row avatar">
+                    <div class="col col-6">
+                        <p class="type">应用列表</p>
+                    </div>
+                    <div class="col col-6">
+                        <p class="type">Applications</p>
+                    </div>
                 </div>
             </div>
-            </div>
-
-            <div class="row item app">
-                <div class="col span-1-of-4">
+        
+            <div class="row item app container-fluid">
+                <div class="col col-12 col-sm-6 col-md-3">
                     <a href="https://owncloud.wuhanstudio.cc" target="_blank">
                         <img src="resources/img/owncloud.png" alt="" >
                     </a>
                     <p class="title">个人云盘</p>
                 </div>
-                <div class="col span-1-of-4">
+                <div class="col col-12 col-sm-6 col-md-3">
                     <a href="https://gitea.wuhanstudio.cc" target="_blank">
                         <img src="resources/img/gitea.png" alt="" >
                     </a>
                     <p class="title">项目管理</p>
                 </div>
-                <div class="col span-1-of-4">
+                <div class="col col-12 col-sm-6 col-md-3">
                     <a href="https://codimd.wuhanstudio.cc" target="_blank">
                         <img src="resources/img/codimd.png" alt="">
                     </a>
                     <p class="title">文档编辑</p>
                 </div>
-                <div class="col span-1-of-4">
+                <div class="col col-12 col-sm-6 col-md-3">
                     <a href="https://shiori.wuhanstudio.cc" target="_blank">
                         <img src="resources/img/shiori.png" alt="" >
                     </a>
                     <p class="title">网页书签</p>
                 </div>
             </div>
+        </div>
 
-            <div class="file">
+        <div class="file">
+            <div class="container-fluid" style="width: 90%;">
                 <div class="row avatar">
-                    <div class="col span-1-of-2">
+                    <div class="col col-6">
                         <p class="type">文件传输</p>
                     </div>
-                    <div class="col span-1-of-2">
+                    <div class="col col-6">
                         <p class="type">Transfer</p>
                     </div>
                 </div>
             </div>
 
-            <div class="row item file">
-                <div class="col span-1-of-4">
+            <div class="row item file container-fluid">
+                <div class="col col-12 col-sm-6 col-md-3">
                     <a href="https://etherpad.wuhanstudio.uk" target="_blank">
                         <img src="resources/img/etherpad.png" alt="" >
                     </a>
                     <p class="title">笔记共享</p>
-                 </div>
-                <div class="col span-1-of-4">
+                    </div>
+                <div class="col col-12 col-sm-6 col-md-3">
                     <a href="https://paste.wuhanstudio.uk" target="_blank">
                         <img src="resources/img/pasteboard.png" alt="" >
                     </a>
                     <p class="title">小图片共享</p>
                 </div>
-                <div class="col span-1-of-4">
+                <div class="col col-12 col-sm-6 col-md-3">
                     <a href="https://linx.wuhanstudio.uk" target="_blank">
                         <img src="resources/img/linx.png" alt="" >
                     </a>
                     <p class="title">小文件共享</p>
                 </div>
-                <div class="col span-1-of-4">
+                <div class="col col-12 col-sm-6 col-md-3">
                     <a href="https://snapdrop.net" target="_blank">
                         <img src="resources/img/snapdrop.png" alt="" >
                     </a>
                     <p class="title">局域网互传</p>
                 </div>
             </div>
+        </div>
 
-            <div class="tool">
+        <div class="tool">
+            <div class="container-fluid" style="width: 90%;">
                 <div class="row avatar">
-                    <div class="col span-1-of-2">
+                    <div class="col col-6">
                         <p class="type">小工具</p>
                     </div>
-                    <div class="col span-1-of-2">
+                    <div class="col col-6">
                         <p class="type">Tools</p>
                     </div>
                 </div>
             </div>
 
-            <div class="row item tool">
-                <div class="col span-1-of-4">
+            <div class="row item tool container-fluid">
+                <div class="col col-12 col-sm-6 col-md-3">
                     <a href="https://netron.app/" target="_blank">
                         <img src="resources/img/netron.png" alt="" >
                     </a>
                     <p class="title">Netron</p>
-                 </div>
-                <div class="col span-1-of-4">
+                    </div>
+                <div class="col col-12 col-sm-6 col-md-3">
                     <a href="https://wuhanstudio.cc/mpw" target="_blank">
                         <img src="resources/img/lock.png" alt="" >
                     </a>
                     <p class="title">密码管理</p>
                 </div>
-                <div class="col span-1-of-4">
+                <div class="col col-12 col-sm-6 col-md-3">
                     <a href="https://vpn.wuhanstudio.uk" target="_blank">
                         <img src="resources/img/uk.png" alt="" >
                     </a>
                     <p class="title">英国代理</p>
                 </div>
-                <div class="col span-1-of-4">
+                <div class="col col-12 col-sm-6 col-md-3">
                     <a href="https://vpn.wuhanstudio.cn" target="_blank">
                         <img src="resources/img/china.png" alt="" >
                     </a>
                     <p class="title">中国代理</p>
                 </div>
             </div>
+        </div>
 
-            <div class="intern">
+        <div class="intern">
+            <div class="container-fluid" style="width: 90%;">
                 <div class="row avatar">
-                    <div class="col span-1-of-2">
+                    <div class="col col-6">
                         <p class="type">助教实习</p>
                     </div>
-                    <div class="col span-1-of-2">
+                    <div class="col col-6">
                         <p class="type">Internship</p>
                     </div>
                 </div>
-                </div>
-    
-                <div class="row item intern">
-                    <div class="col span-1-of-4">
+            </div>
+
+            <div class="row item intern container-fluid">
+                    <div class="col col-12 col-sm-6 col-md-3">
                         <a href="https://gowalla.wuhanstudio.cc" target="_blank">
                             <img src="resources/img/gowalla.png" alt="">
                         </a>
                         <p class="title">位置追踪</p>
                     </div>
-                    <div class="col span-1-of-4">
+                    <div class="col col-12 col-sm-6 col-md-3">
                         <a href="https://covid.wuhanstudio.cc" target="_blank">
                             <img src="resources/img/covid.png" alt="" >
                         </a>
                         <p class="title">疫情可视化</p>
                     </div>
-                    <div class="col span-1-of-4">
+                    <div class="col col-12 col-sm-6 col-md-3">
                         <a href="https://xilinx.wuhanstudio.cc" target="_blank">
                             <img src="resources/img/pynq.png" alt="" >
                         </a>
                         <p class="title">硬件加速</p>
                     </div>
-                    <!-- <div class="col span-1-of-4">
+                    <!-- <div class="col col-12 col-sm-6 col-md-3">
                         <a href="http://trustai.uk" target="_blank">
                             <img src="resources/img/lab.png" alt="" >
                         </a>
                         <p class="title">TrustAI Lab</p>
                     </div> -->
-                </div>
+            </div>
+        </div>
 
-            <div class="project">
-            <div class="row avatar">
-                <div class="col span-1-of-2">
-                    <p class="type">项目主页</p>
-                </div>
-                <div class="col span-1-of-2">
-                    <p class="type">Projects</p>
+        <div class="project">
+            <div class="container-fluid" style="width: 90%;">
+                <div class="row avatar">
+                    <div class="col col-6">
+                        <p class="type">项目主页</p>
+                    </div>
+                    <div class="col col-6">
+                        <p class="type">Projects</p>
+                    </div>
                 </div>
             </div>
-            </div>
 
-            <div class="row item project">
-                <div class="col span-1-of-4">
+            <div class="row item project container-fluid">
+                <div class="col col-12 col-sm-6 col-md-3">
                     <a href="https://wuhanstudio.cc" target="_blank">
                         <img src="resources/img/wuhanstudio.jpg" alt="" class="wuhan">
                     </a>
                     <p class="title">个人主页</p>
                 </div>
-                <div class="col span-1-of-4">
+                <div class="col col-12 col-sm-6 col-md-3">
                     <a href="https://focus.wuhanstudio.cc" target="_blank">
                         <img src="resources/img/3dprinter.png" alt="" >
                     </a>
                     <p class="title">3D 打印机</p>
                 </div>
-                <div class="col span-1-of-4">
+                <div class="col col-12 col-sm-6 col-md-3">
                     <a href="https://bicover.wuhanstudio.cc" target="_blank">
                         <img src="resources/img/bicover.png" alt="" >
                     </a>
                     <p class="title">智能降温服</p>
                 </div>
-                <!-- <div class="col span-1-of-4">
+                <!-- <div class="col col-12 col-sm-6 col-md-3">
                     <a href="http://trustai.uk" target="_blank">
                         <img src="resources/img/lab.png" alt="" >
                     </a>
                     <p class="title">TrustAI Lab</p>
                 </div> -->
             </div>
+        </div>
 
-            <div class="monitor">
+        <div class="monitor">
+            <div class="container-fluid" style="width: 90%;">
                 <div class="row avatar">
-                    <div class="col span-1-of-2">
+                    <div class="col col-6">
                         <p class="type">实时监控</p>
                     </div>
-                    <div class="col span-1-of-2">
+                    <div class="col col-6">
                         <p class="type">Online Monitor</p>
                     </div>
                 </div>
-                </div>
+            </div>
 
-            <div class="row item monitor">
-                <div class="col span-1-of-4 ">
+            <div class="row item monitor container-fluid">
+                <div class="col col-12 col-sm-6 col-md-3">
                     <a href="https://ackee.wuhanstudio.cc" target="_blank">
                         <img src="resources/img/ackee.png" alt="" >
                     </a>
                     <p class="title">流量统计</p>
                 </div>
-
-                <div class="col span-1-of-4 ">
+    
+                <div class="col col-12 col-sm-6 col-md-3">
                     <a href="https://matomo.wuhanstudio.cc" target="_blank">
                         <img src="resources/img/matomo.png" alt="" >
                     </a>
                     <p class="title">访问统计</p>
                 </div>
-
-                <div class="col span-1-of-4">
+    
+                <div class="col col-12 col-sm-6 col-md-3">
                     <a href="https://portainer.wuhanstudio.cc" target="_blank">
                         <img src="resources/img/docker.png" alt="" >
                     </a>
                     <p class="title">容器监控</p>
                 </div>         
             </div>
+        </div>
+    
+    </section>
 
-            <!-- Footer -->
-            <div class="row footer">
-                <div class="col span-1-of-4">
-                    <a href="https://www.hust.edu.cn/" target="_blank">
-                        <img class="hust" src="resources/img/hust.png" alt="Huazhong Univercity of Science and Technology">
-                    </a>
-                </div>
-                <div class="col span-1-of-4">
-                    <a href="http://tpl.energy.hust.edu.cn/" target="_blank">
-                        <img class="tpl" src="resources/img/tpl.png" alt="Thermal Packaging Lab">
-                    </a>
-                </div>
-                <div class="col span-1-of-4">
-                    <a href="https://wuhanstudio.uk/" target="_blank">
-                        <img class="trustai" src="resources/img/trustai.png" alt="TrustAI Lab">
-                    </a>
-                </div>
-                <div class="col span-1-of-4">
-                    <a href="https://www.exeter.ac.uk/" target="_blank">
-                        <img class="exeter" src="resources/img/exeter.png" alt="University of Exeter">
-                    </a>
+    <!-- Footer -->
+    <section  id="main-footer">
+        <div class="footer">
+            <div class="container h-100 d-flex align-items-center">
+                <div>
+                    <div class="row">
+                        <div class="col col-6 col-md-3">
+                            <a href="http://english.hust.edu.cn/">
+                                <img class="hust" src="resources/img/hust.png" alt="Huazhong University of Science and Technology">
+                            </a>
+                        </div>
+                        <div class="col col-6 col-md-3">
+                            <a href="https://www.ncl.ac.uk/computing/">
+                                <img class="newcastle" src="resources/img/newcastle.png" alt="Newcastle Universityy">
+                            </a>
+                        </div>
+                        <div class="col col-6 col-md-3">
+                            <a href="https://www.southampton.ac.uk/">
+                                <img class="soton" src="resources/img/soton.png" alt="University of Southampton">
+                            </a>
+                        </div>
+                        <div class="col col-6 col-md-3">
+                            <a href="https://www.exeter.ac.uk/">
+                                <img class="exeter" src="resources/img/exeter.png" alt="University of Exeter">
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-
+    </section>
 </body>
 
 </html>
